@@ -27,7 +27,7 @@ $.fn.addOption = function()
 {
 	var add = function(el, v, t, sO, index)
 	{
-		var option = document.createElement("option");
+		var option = new Option;
 		option.value = v, option.text = t;
 		// get options
 		var o = el.options;
